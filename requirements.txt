@@ -6,9 +6,10 @@ pandas
 pydantic
 mlflow
 pytest
-httpx
+httpx==0.24.1
 prefect
 supabase==2.3.4
+gotrue==1.3.1
 realtime==1.0.6
 websockets==11.0.3
 sqlalchemy
