@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-SUPABASE_KEY = os.getenv("anon-key")
+SUPABASE_KEY = os.getenv("anon_key")
 SUPABASE_URL =os.getenv("SUPABASE_URL")
 
 

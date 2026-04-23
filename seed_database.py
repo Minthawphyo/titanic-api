@@ -6,7 +6,7 @@ load_dotenv()
 
 
 SUPABASE_URL = "https://mrumlkaguhuejjponkrc.supabase.co"
-SUPABASE_KEY = os.getenv("anon-key")
+SUPABASE_KEY = os.getenv("anon_key")
 
 def seed():
     df = pd.read_csv("titanic.csv")
