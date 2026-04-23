@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+scikit-learn
+numpy
+pandas
+pydantic
+mlflow
+pytest
+httpx
+prefect
+supabase
+websockets==12.0
+sqlalchemy
+psycopg2-binary
+python-dotenv
