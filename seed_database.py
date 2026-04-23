@@ -6,7 +6,7 @@ import os
 
 
 SUPABASE_URL = "https://mrumlkaguhuejjponkrc.supabase.co"
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 
 def seed():
     df = pd.read_csv("titanic.csv")
