@@ -14,9 +14,11 @@ from supabase import create_client
 from dotenv import load_dotenv
 
 
-load_dotenv()
-SUPABASE_KEY = os.getenv("anon_key")
-SUPABASE_URL =os.getenv("SUPABASE_URL")
+# load_dotenv()
+
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+
 
 
 MODEL_NAME    = "titanic-survival-model"

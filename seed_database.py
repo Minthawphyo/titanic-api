@@ -2,7 +2,7 @@ import pandas as pd
 from supabase import create_client
 from dotenv import load_dotenv
 import os
-load_dotenv()
+# load_dotenv()
 
 
 SUPABASE_URL = "https://mrumlkaguhuejjponkrc.supabase.co"
